@@ -1,0 +1,44 @@
+{
+"plugin_name": "getimg + tweet",
+	"plugin_scope": "getimg + tweet",
+	"plugin_exec": "getimg.js",
+	"command_map": {
+        "getimg": {
+			"hargs": {
+				"vi_VN": "",
+				"en_US": ""
+			},
+			"hdesc": {
+				"vi_VN": "img <type> [hass, hmidriff, pgif, 4k, hentai, holo, hneko, neko, hkitsune, kemonomimi, anal, hanal, gonewild, kanna, ass, pussy, thigh, hthigh, gah, coffee, food, paizuri, tentacle, boobs, hboobs, yaoi] ",
+				"en_US": ""
+			},
+			"fscope": "getimg",
+			"compatibly": 0
+        },  
+        "tweet": {
+			"hargs": {
+				"vi_VN": "",
+				"en_US": ""
+			},
+			"hdesc": {
+				"vi_VN": "tweet <text> [your tweet]",
+				"en_US": ""
+			},
+			"fscope": "tweet",
+			"compatibly": 0
+		}
+    },
+	"author": "Stowe",
+	"version": "0.1",
+	"node_depends": {
+		"node-fetch": "*",
+		"path": "*",
+		"wait-for-stuff": "*",
+		"stream-buffers": "*"
+	},
+	"file_map": {},
+	"complied_for": "0.3.0"
+}
+
+
+    
